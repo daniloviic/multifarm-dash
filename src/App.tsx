@@ -3,12 +3,15 @@ import React from 'react';
 // Css load
 import './App.css';
 
-function App() {
+// Containers
+import { Dashboard } from './containers/dashboard/Dashboard';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">Boo</header>
+      <Dashboard />
     </div>
   );
-}
+};
 
 export default App;
