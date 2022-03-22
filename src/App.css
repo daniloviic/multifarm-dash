@@ -1,13 +1,19 @@
 .App {
-  display: flex;
-  flex-direction: row;
+  display: block;
 
   min-height: 100vh;
   padding: 50px;
 
-  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 
   background-color: #242944;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: lightskyblue;
 }

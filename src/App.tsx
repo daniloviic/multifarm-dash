@@ -9,7 +9,7 @@ import './App.css';
 // Containers
 import { Dashboard } from './containers/dashboard/Dashboard';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Dashboard />

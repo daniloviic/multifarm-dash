@@ -12,7 +12,7 @@ export class TVLRecord {
 }
 
 export class Farm {
-  tvlHistory: any[];
+  tvlHistory: TVLRecord[];
 
   constructor(farm: TFarm) {
     this.tvlHistory = farm.tvlStakedHistory.map(
