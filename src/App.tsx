@@ -1,4 +1,7 @@
 import React from 'react';
+// Toaster
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // Css load
 import './App.css';
@@ -10,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <Dashboard />
+      <ToastContainer />
     </div>
   );
 };

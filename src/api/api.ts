@@ -44,7 +44,7 @@ class API {
    * @param response - Any object.
    * @returns Boolean of truth.
    */
-  isError(response: any): boolean {
+  isError(response: any): response is APIError {
     return response instanceof APIError;
   }
 }

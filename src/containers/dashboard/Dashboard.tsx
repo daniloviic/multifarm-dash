@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { toast } from 'react-toastify';
 
 // API
 import { api } from '../../api/api';
@@ -10,7 +11,8 @@ export const Dashboard = () => {
   const fetchData = async (): Promise<any> => {
     const response = await fetchAssets();
     if (api.isError(response)) {
-      //TODO: Handle error.
+      toast.error(response.message);
+      return;
     }
     //TODO: Update state.
   };
