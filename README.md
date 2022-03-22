@@ -1,0 +1,1 @@
+# Multifarm Dashboard frontend application
